@@ -1,0 +1,307 @@
+@font-face {
+    src: url("cssres/DKPrinceFrog.otf");
+}
+
+
+
+#pane{
+    /*-fx-background-image: url("cssres/wood.jpg");*/
+    /*-fx-background-color: black;*/
+    -fx-background-repeat: stretch;
+    -fx-background-size: 800 800;
+    -fx-background-position: center center;
+    -fx-font-size: 24;
+}
+
+#test{
+    -fx-padding: 10;
+    -fx-background-color: #6FC982;
+}
+#test:hover{
+    -fx-padding: 12;
+    -fx-background-color: #6FC982;
+}
+#test:pressed{
+    -fx-padding: 10;
+    -fx-background-color: #6FC982;
+}
+
+#home{
+    -fx-padding: 10, 10 ,10 , 10;
+    -fx-background-color: #8FE0E7;
+}
+#home:hover{
+    -fx-padding: 9, 12, 12, 12;
+    -fx-background-color: #3EB5C0;
+}
+#home:pressed{
+    -fx-padding: 9, 10, 10, 10;
+    -fx-background-color: #3EB5C0;
+}
+
+#startB{
+    -fx-padding: 10, 10 ,10 , 10;
+    -fx-background-color: #6FC982;
+}
+#startB:hover{
+    -fx-padding: 9, 12, 12, 12;
+    -fx-background-color: #49A35D;
+}
+#startB:pressed{
+    -fx-padding: 9, 10, 10, 10;
+    -fx-background-color: #49A35D;
+}
+
+#story{
+    -fx-padding: 10, 10 ,10 , 10;
+    -fx-background-color: #6FC982;
+}
+#story:hover{
+    -fx-padding: 10, 10, 10, 10;
+    -fx-background-color: #49A35D;
+}
+#story:pressed{
+    -fx-padding: 9, 10, 10, 10;
+    -fx-background-color: #49A35D;
+}
+
+#statyB{
+    -fx-padding: 10, 10 ,10 , 10;
+    -fx-background-color: #C45640;
+}
+#statyB:hover{
+    -fx-padding: 9, 12, 12, 12;
+    -fx-background-color: #A92207;
+}
+#statyB:pressed{
+    -fx-padding: 9, 10, 10, 10;
+    -fx-background-color: #A92207;
+}
+
+#repeatB{
+    -fx-padding: 10, 10 ,10 , 10;
+    -fx-background-color: #6A56B8;
+}
+#repeatB:hover{
+    -fx-padding: 9, 12, 12, 12;
+    -fx-background-color: #483A81;
+}
+#repeatB:pressed{
+    -fx-padding: 9, 10, 10, 10;
+    -fx-background-color: #483A81;
+}
+
+#addB{
+    -fx-padding: 10, 10 ,10 , 10;
+    -fx-background-color: #3958D6;
+}
+#addB:hover{
+    -fx-padding: 9, 12, 12, 12;
+    -fx-background-color: #213CA6;
+}
+#addB:pressed{
+    -fx-padding: 9, 10, 10, 10;
+    -fx-background-color: #213CA6;
+}
+
+#menuB{
+    -fx-padding: 10, 10 ,10 , 10;
+    -fx-background-color: #CD7941;
+}
+#menuB:hover{
+    -fx-padding: 9, 12, 12, 12;
+    -fx-background-color: #AD5C26;
+}
+#menuB:pressed{
+    -fx-padding: 9, 10, 10, 10;
+    -fx-background-color: #AD5C26;
+}
+
+#infoB{
+    -fx-padding: 10, 10 ,10 , 10;
+    -fx-background-color: #818181;
+}
+#infoB:hover{
+    -fx-padding: 9, 12, 12, 12;
+    -fx-background-color: #696969;
+}
+#infoB:pressed{
+    -fx-padding: 9, 10, 10, 10;
+    -fx-background-color: #696969;
+}
+
+#start{
+    -fx-font: 40px  "DK Prince Frog";
+    -fx-font-weight: bold;
+    -fx-padding: 80;
+    -fx-background-color: #6FC982;
+}
+#start:hover{
+    -fx-font: 40px "DK Prince Frog";
+    -fx-padding: 82;
+    -fx-background-color: #49A35D;
+}
+#start:pressed{
+    -fx-font: 40px "DK Prince Frog";
+    -fx-padding: 79;
+    -fx-background-color: #49A35D;
+}
+
+#repeat{
+    -fx-font: 40px "DK Prince Frog";
+    -fx-padding: 30 71 30 71;
+    -fx-background-color: #6A56B8;
+}
+#repeat:hover{
+    -fx-font: 40px "DK Prince Frog";
+    -fx-padding: 30 71 30 71;
+    -fx-background-color: #483A81;
+}
+#repeat:pressed{
+    -fx-font: 40px "DK Prince Frog";
+    -fx-padding: 32 72 32 72;
+    -fx-background-color: #483A81;
+}
+
+#add{
+    -fx-font: 40px "DK Prince Frog";
+    -fx-padding: 60;
+    -fx-background-color: #3958D6;
+}
+#add:hover{
+    -fx-font: 40px "DK Prince Frog";
+    -fx-padding: 62;
+    -fx-background-color: #213CA6;
+}
+#add:pressed{
+    -fx-font: 40px "DK Prince Frog";
+    -fx-padding: 59;
+    -fx-background-color: #213CA6;
+}
+
+#menu{
+    -fx-font: 40px "DK Prince Frog";
+    -fx-padding: 60;
+    -fx-background-color: #CD7941;
+}
+#menu:hover{
+    -fx-font: 40px "DK Prince Frog";
+    -fx-padding: 62;
+    -fx-background-color: #AD5C26;
+}
+#menu:pressed{
+    -fx-font: 40px "DK Prince Frog";
+    -fx-padding: 59;
+    -fx-background-color: #AD5C26;
+}
+
+#stat{
+    -fx-font: 40px "DK Prince Frog";
+    -fx-padding: 50 124 50 124;
+    -fx-background-color: #C45640;
+}
+#stat:hover{
+    -fx-font: 40px "DK Prince Frog";
+    -fx-padding: 50 126 50 126;
+    -fx-background-color: #A92207;
+}
+#stat:pressed{
+    -fx-font: 40px "DK Prince Frog";
+    -fx-padding: 50 124 50 124;
+    -fx-background-color: #A92207;
+}
+
+#color0 {
+    -fx-padding: 10, 10 ,10 , 10;
+    -fx-background-color: #04a6fc;
+}
+#color1 {
+    -fx-padding: 10, 10 ,10 , 10;
+    -fx-background-color: #b5f441;
+}
+#color2 {
+    -fx-padding: 10, 10 ,10 , 10;
+    -fx-background-color: #A92207;
+}
+#color3 {
+    -fx-padding: 10, 10 ,10 , 10;
+    -fx-background-color: #CD7941;
+}
+#color4 {
+    -fx-padding: 10, 10 ,10 , 10;
+    -fx-background-color: #6A56B8;
+}
+#color5 {
+    -fx-padding: 10, 10 ,10 , 10;
+    -fx-background-color: #56d861;
+}
+#color6 {
+    -fx-padding: 10, 10 ,10 , 10;
+    -fx-background-color: #213CA6;
+}
+#color7 {
+    -fx-padding: 10, 10 ,10 , 10;
+    -fx-background-color: #696969;
+}
+#color8 {
+    -fx-padding: 10, 10 ,10 , 10;
+    -fx-background-color: #f441cd;
+}
+#color9 {
+    -fx-padding: 10, 10 ,10 , 10;
+    -fx-background-color: #b5f441;
+}
+#color10 {
+    -fx-padding: 10, 10 ,10 , 10;
+    -fx-background-color: #c4a6fc;
+}
+#color11 {
+    -fx-padding: 10, 10 ,10 , 10;
+    -fx-background-color: #0FE0E7;
+}
+#color12 {
+    -fx-padding: 10, 10 ,10 , 10;
+    -fx-background-color: #092207;
+}
+#color13 {
+    -fx-padding: 10, 10 ,10 , 10;
+    -fx-background-color: #0D7941;
+}
+#color14 {
+    -fx-padding: 10, 10 ,10 , 10;
+    -fx-background-color: #0A56B8;
+}
+#color15 {
+    -fx-padding: 10, 10 ,10 , 10;
+    -fx-background-color: #06d861;
+}
+#color16 {
+    -fx-padding: 10, 10 ,10 , 10;
+    -fx-background-color: #013CA6;
+}
+#color17 {
+    -fx-padding: 10, 10 ,10 , 10;
+    -fx-background-color: #096969;
+}
+#color18 {
+    -fx-padding: 10, 10 ,10 , 10;
+    -fx-background-color: #f441cd;
+}
+#color19 {
+    -fx-padding: 10, 10 ,10 , 10;
+    -fx-background-color: #8FE0E7;
+}
+#color20 {
+    -fx-padding: 10, 10 ,10 , 10;
+    -fx-background-color: #e8f442;
+}
+
+
+#czarne {
+    -fx-text-fill: #ffffff;
+    -fx-background-color: #000000;
+}
+#biale {
+    -fx-text-fill: #000000;
+    -fx-background-color: #ffffff
+}
