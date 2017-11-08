@@ -26,6 +26,7 @@ class ColorsPane(val spotsNumber: Int, val colorsNumber: Int) {
     fun setColors(colors: IntArray) {
         for (i in 0 until buttons.size) {
             buttons[i].styleID = colors[i]
+            buttons[i].text = buttons[i].styleID.toString()
             buttons[i].id = Strings.COLOR_ID + buttons[i].styleID
         }
     }
@@ -45,9 +46,10 @@ class ColorsPane(val spotsNumber: Int, val colorsNumber: Int) {
             styleID++
             styleID %= colorsNumber
             id = Strings.COLOR_ID + styleID
+            text = styleID.toString()
         }
     }
 
-    class ColorButton(var styleID: Int): Button()
+    class ColorButton(var styleID: Int): Button(styleID.toString())
 
 }
